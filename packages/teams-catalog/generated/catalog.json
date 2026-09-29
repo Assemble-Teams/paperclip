@@ -376,6 +376,102 @@
       "contentHash": "sha256:74ddeaeb11805835a4a67fc4530b048ab7f8aa1dc7d2b80acea139a933d158d3"
     },
     {
+      "id": "paperclipai:optional:advisory:advisory-pilot",
+      "key": "paperclipai/optional/advisory/advisory-pilot",
+      "kind": "optional",
+      "category": "advisory",
+      "slug": "advisory-pilot",
+      "name": "Advisory Pilot",
+      "description": "Optional four-agent advisory operations team for internal consulting pilots with orchestration, assurance, growth, and delivery roles.",
+      "path": "catalog/optional/advisory/advisory-pilot",
+      "entrypoint": "TEAM.md",
+      "schema": "agentcompanies/v1",
+      "defaultInstall": false,
+      "recommendedForCompanyTypes": [
+        "consulting",
+        "professional-services",
+        "advisory"
+      ],
+      "tags": [
+        "advisory",
+        "operations",
+        "assurance",
+        "growth",
+        "delivery"
+      ],
+      "counts": {
+        "agents": 4,
+        "projects": 1,
+        "tasks": 0,
+        "routines": 1,
+        "localSkills": 0,
+        "catalogSkills": 0,
+        "externalSkillSources": 0
+      },
+      "rootAgentSlugs": [
+        "atlas"
+      ],
+      "agentSlugs": [
+        "atlas",
+        "delivery",
+        "growth",
+        "ras"
+      ],
+      "projectSlugs": [
+        "advisory-operations"
+      ],
+      "requiredSkills": [],
+      "envInputs": [],
+      "sourceRefs": [],
+      "files": [
+        {
+          "path": "TEAM.md",
+          "kind": "team",
+          "sizeBytes": 1482,
+          "sha256": "2147561463e1517fd2dc959056338b7b8098345c2a7bc24b14a276fec7d1c144"
+        },
+        {
+          "path": "agents/atlas/AGENTS.md",
+          "kind": "agent",
+          "sizeBytes": 1535,
+          "sha256": "69ca33be5e0fa45b54486ccb1e454f7c1f78e382e38439f15c7c4007450ab490"
+        },
+        {
+          "path": "agents/delivery/AGENTS.md",
+          "kind": "agent",
+          "sizeBytes": 1185,
+          "sha256": "9f025c1f91f8926c61145e716ac1a7f016a5a6eca3f4198ee1146d52d168bde7"
+        },
+        {
+          "path": "agents/growth/AGENTS.md",
+          "kind": "agent",
+          "sizeBytes": 1124,
+          "sha256": "96fd7d5e3e4ca2a87da10e65d0b2f07303bd0e32e5c85864bdea4c48696076f4"
+        },
+        {
+          "path": "agents/ras/AGENTS.md",
+          "kind": "agent",
+          "sizeBytes": 1240,
+          "sha256": "ca3d922bbbac18a13986e3d6d29650a02ababd7fb53c9aa5aeae6b367989e26a"
+        },
+        {
+          "path": "projects/advisory-operations/PROJECT.md",
+          "kind": "project",
+          "sizeBytes": 661,
+          "sha256": "6c5232eff4fedf1b9100d55b5e88dc7b9634e33041948b59ae0dda7106864fe2"
+        },
+        {
+          "path": "projects/advisory-operations/tasks/weekly-advisory-review/TASK.md",
+          "kind": "task",
+          "sizeBytes": 668,
+          "sha256": "9b4183298899eb7381925e4138002abc090d2355ae23b4eb69a2439e07298168"
+        }
+      ],
+      "trustLevel": "markdown_only",
+      "compatibility": "compatible",
+      "contentHash": "sha256:d02dbaa65a7247a0a0f25099b3e47a704d2610bc225630f7e0ed31c5771e219a"
+    },
+    {
       "id": "paperclipai:optional:content:content-machine",
       "key": "paperclipai/optional/content/content-machine",
       "kind": "optional",
